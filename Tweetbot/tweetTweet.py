@@ -38,6 +38,6 @@ class TwitterBot:
                     bot.find_elements_by_class_name('HeartAnimation').click()
                     time.sleep(10)
 
-ed = TwitterBot('liljearsy@gmail.com', 'Madara12')
+ed = TwitterBot('email@gmail.com', 'password')
 ed.login()
 
